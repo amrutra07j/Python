@@ -1,14 +1,15 @@
 import time
+def deco_delay(function):
+    def wrap_func():
+        time.sleep(2)
+        function()
+    return wrap_func
 
+@deco_delay
+def say_hi():
+    print('jadrisas busdaris gosdavor')
 
-def setter(finder):
-    time.sleep(1)
-    return finder
+say_hi()
 
-# hi = deco_find()
-@setter
-def oho():
-    print("ra")
-oho()
-
-print(time.time())
+hi = deco_delay(say_hi)
+hi()
