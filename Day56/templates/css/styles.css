@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  margin: 50px auto 0;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 5.625rem;
+  color: #54e346;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #54e346;
+}
+
+h3{
+  color: #93abd3;
+}
+
+a{
+  color: #54e346;
+}
+
+hr{
+  margin: auto;
+  border: dotted;
+  border-bottom: none;
+  border-width: 2px;
+  width: 5%;
+}
+.top-container{
+  background-color: #bce6eb;
+  position:relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.tree{
+  height: 50px;
+
+}
+
+.sunbath{
+  height: 100px;
+}
+
+.dp{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.skill-row{
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.web-des{
+  clear: left;
+}
+
+.house-des{
+  clear: right;
+}
+.home{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  padding: 10px;
+  margin: 20px;
+}
+.btn {
+   background: red;
+   background-image: -webkit-linear-gradient(top, red, yellow);
+   background-image: -moz-linear-gradient(top, red, yellow);
+   background-image: -ms-linear-gradient(top, red, yellow);
+   background-image: -o-linear-gradient(top, red, yellow);
+   background-image: -webkit-gradient(to bottom, red, yellow);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid red 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid yellow 1px;
+   background: yellow;
+   background-image: -webkit-linear-gradient(top, yellow, red);
+   background-image: -moz-linear-gradient(top, yellow, red);
+   background-image: -ms-linear-gradient(top, yellow, red);
+   background-image: -o-linear-gradient(top, yellow, red);
+   background-image: -webkit-gradient(to bottom, yellow, red);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #fceef5;
+  padding-top: 10px;
+}
+
+.footer-link{
+  padding: 10px;
+  text-decoration: none;
+  color: #9ddfd3;
+}
+
+.footer-link:hover{
+  background-color: #ffffff;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 2000px) {
+  .skill-row{
+    display: inline-block;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+  }
+
+}
