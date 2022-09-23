@@ -17,7 +17,6 @@ def show_post(num):
     send_post = None
     for single_post in all_posts:
         if single_post['id'] == num:
-            print(single_post)
             send_post = single_post
     return render_template("post.html", post=send_post)
 

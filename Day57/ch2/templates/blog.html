@@ -5,8 +5,11 @@
     <title>Blog</title>
 </head>
 <body>
-{% for post in posts: %}
-<b>Title: {{post['title']}}</b>
+{% for blog_post in posts: %}
+{% if blog_post['id'] == 2 %}
+<h1>Title: {{blog_post['title']}}</h1>
+<h2>Sub: {{blog_post['subtitle']}}</h2>
+{% endif %}
 {% endfor %}
 
 </body>
