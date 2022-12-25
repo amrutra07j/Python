@@ -10,7 +10,7 @@ def start():
 
 @app.route('/<name>')
 def greet(name):
-    return f'Thanks for choosing us! {name} will be remembered'
+    return f'<h3><i>Thanks for choosing us! {name} will be remembered</i></h3>'
 
 if __name__ == "__main__":
     app.run(debug=True)
