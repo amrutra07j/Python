@@ -12,6 +12,8 @@ def starter():
 def done():
     if request.method=="POST":
         return f"<h1>Name: {request.form['fname']}, Password: {request.form['password']}</h1>"
+    else:
+        return f"You should use post method"
     return "<p>You are logged in</p>"
 
 
